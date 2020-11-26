@@ -1,4 +1,4 @@
-# Ajax-hook
+# xhr-hook-cycle
 
 xhr-hook-cycle 是一个精巧的用于拦截浏览器 XMLHttpRequest 的库，它可以在 XMLHttpRequest 对象发起请求之前和收到响应内容之后获得处理权。通过它你可以在底层对请求和响应进行一些预处理。
 
@@ -9,7 +9,7 @@ xhr-hook-cycle 是一个精巧的用于拦截浏览器 XMLHttpRequest 的库，�
 - CDN 引入
 
   ```html
-  <script src="https://unpkg.com/xhr-hook-cycle@1.1.1/dist/ajaxhook.min.js"></script>
+  <script src="https://unpkg.com/xhr-hook-cycle@1.1.2/dist/ajaxhook.min.js"></script>
   ```
 
   引入后会有一个名为"ah"（xhr-hook）的全局对象，通过它可以调用 xhr-hook 的 API，如`ah.proxy(hooks)`
